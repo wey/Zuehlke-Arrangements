@@ -20,151 +20,1219 @@
 }
 
 global = {
-    \key e \major
+    \key es \major
     \time 6/8
     \override Staff.InstrumentName #'self-alignment-X = #RIGHT
 } 
 
 
-tenorEins = \relative c' {
+alt = \relative c' {
     \global
-    gis4. gis4 gis8
-    h2 ~ h8 h8
-    cis4 cis8 a4 cis8
-    e2. 
-    h4 h8 gis4 fis8
-    e4. gis4 a8
-    h4. a4 fis8
-    e2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 10 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 20 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 30 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 40 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 50 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 60 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 70 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 80 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 90 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 100 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 110 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 120 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 130 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 140 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 150 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 160 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 170 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 180 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 190 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 200 ---
+}
+
+altText = \lyricmode {
+
+}
+
+tenor = \relative c' {
+    \global
+    g4. g4 g8
+    b2 ~ b8 b8
+    c4 c8 as4 c8
+    es2. 
+    b4 b8 g4 f8
+    es4. g4 as8
+    b4. as4 f8
+    es2.
     r2.
-    gis4. gis4 gis8
-    h2 ~ h8 h8
-    cis4 cis8 a4 cis8
-    e2. 
-    h4 h8 ais4 gis8
-    dis'4. h4 cis8
-    dis4. e4 dis8
-    gis,2.
-    r4. r4 h8
-    h4. cis4.
-    fis,2 r8 h8
-    cis4 h8 e4 gis,8
-    cis4. h4 h8
-    h4. cis4.
-    fis,2 r8 h8
-    cis4 h8 e4 gis,8
-    h2 r4
-    e2. ~
-    e4. dis4 cis8
-    dis2. ~
-    dis2 r8 dis8
-    fis2. ~
-    fis4 cis8 cis4 cis8
-    e2.
-    e2 r8 e8
-    gis2.
-    fis2 r8 h,8
-    e2. ~
-    e4. dis4 cis8
-    h2.
-    r4 h8 cis4 h8
-    h2. ~
-    h4 r8 e4.
-    fis2. ~
-    fis2 r8 h,8
-    gis'2. ~
-    gis4. fis4.
-    e2.
-    dis4.\turn e4 fis8
-    e2. ~
-    e2.
+    g4. g4 g8
+% 10 ---
+    b2 ~ b8 b8
+    c4 c8 as4 c8
+    es2. 
+    b4 b8 a4 g8
+    d'4. b4 c8
+    d4. es4 d8
+    g,2.
+    r4. r4 b8
+    b4. c4.
+    f,2 r8 b8
+% 20 ---
+    c4 b8 es4 g,8
+    c4. b4 b8
+    b4. c4.
+    f,2 r8 b8
+    c4 b8 es4 g,8
+    b2 r4
+    es2. ~
+    es4. d4 c8
+    d2. ~
+    d2 r8 d8
+% 30 ---
+    f2. ~
+    f4 c8 c4 c8
+    es2.
+    es2 r8 es8
+    g2.
+    f2 r8 b,8
+    es2. ~
+    es4. d4 c8
+    b2.
+    r4 b8 c4 b8
+% 40 ---
+    b2. ~
+    b4 r8 es4.
+    f2. ~
+    f2 r8 b,8
+    g'2. ~
+    g4. f4.
+    es2.
+    d4.\turn es4 f8
+    es2. ~
+    es2.
+% 50 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 60 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 70 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 80 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 90 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 100 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 110 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 120 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 130 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 140 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 150 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 160 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 170 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 180 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 190 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 200 ---
 }
 
-tenorEinsText = \lyricmode {
+tenorText = \lyricmode {
 
 }
 
-tenorZwei = \relative c' {
+baritonEins = \relative c {
     \global
-    h2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 10 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 20 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 30 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 40 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 50 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 60 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 70 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 80 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 90 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 100 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 110 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 120 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 130 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 140 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 150 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 160 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 170 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 180 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 190 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 200 ---
 }
 
-tenorZweiText = \lyricmode {
+baritonEinsText = \lyricmode {
 
 }
 
-bassEins = \relative c {
+baritonZwei = \relative c {
     \global
-    e2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 10 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 20 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 30 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 40 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 50 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 60 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 70 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 80 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 90 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 100 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 110 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 120 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 130 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 140 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 150 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 160 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 170 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 180 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 190 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 200 ---
 }
 
-bassEinsText = \lyricmode {
+baritonZweiText = \lyricmode {
 
 }
 
-bassZwei = \relative c, {
+bass = \relative c, {
     \global
-    e2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 10 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 20 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 30 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 40 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 50 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 60 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 70 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 80 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 90 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 100 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 110 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 120 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 130 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 140 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 150 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 160 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 170 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 180 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 190 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 200 ---
 }
 
-bassZweiText = \lyricmode {
+bassText = \lyricmode {
 
 }
 
-tenorEinsStimme = \new Voice = "tenorEins" \tenorEins
-tenorZweiStimme = \new Voice = "tenorZwei" \tenorZwei
-bassEinsStimme = \new Voice = "bassEins" \bassEins
-bassZweiStimme = \new Voice = "bassZwei" \bassZwei
+altStimme = \new Voice = "alt" \alt
+tenorStimme = \new Voice = "tenor" \tenor
+baritonEinsStimme = \new Voice = "baritonEins" \baritonEins
+baritonZweiStimme = \new Voice = "baritonZwei" \baritonZwei
+bassStimme = \new Voice = "bass" \bass
 
-tenorEinsSystem = \new Staff \with {
+altSystem = \new Staff \with {
     midiInstrument = "flute"
-    instrumentName = "Tenor I"
+    instrumentName = "Alt"
+} {
+    \clef "treble"
+    \altStimme
+}
+
+tenorSystem = \new Staff \with {
+    midiInstrument = "flute"
+    instrumentName = "Tenor"
 } {
     \clef "treble_8"
-    \tenorEinsStimme
+    \tenorStimme
 }
 
-tenorZweiSystem = \new Staff \with {
+baritonEinsSystem = \new Staff \with {
     midiInstrument = "flute"
-    instrumentName = "Tenor II"
-} {
-    \clef "treble_8"
-    \tenorZweiStimme
-}
-
-bassEinsSystem = \new Staff \with {
-    midiInstrument = "flute"
-    instrumentName = "Bass I"
+    instrumentName = "Bariton I"
 } {
     \clef "bass"
-    \bassEinsStimme
+    \baritonEinsStimme
 }
 
-bassZweiSystem = \new Staff \with {
+baritonZweiSystem = \new Staff \with {
     midiInstrument = "flute"
-    instrumentName = "Bass II"
+    instrumentName = "Bariton II"
 } {
     \clef "bass"
-    \bassZweiStimme
+    \baritonZweiStimme
 }
 
-tenorEinsSystemText = \new Lyrics \lyricsto "tenorEins" \tenorEinsText
-tenorZweiSystemText = \new Lyrics \lyricsto "tenorZwei" \tenorZweiText
-bassEinsSystemText = \new Lyrics \lyricsto "bassEins" \bassEinsText
-bassZweiSystemText = \new Lyrics \lyricsto "bassZwei" \bassZweiText
+bassSystem = \new Staff \with {
+    midiInstrument = "flute"
+    instrumentName = "Bass"
+} {
+    \clef "bass"
+    \bassStimme
+}
+
+altSystemText = \new Lyrics \lyricsto "alt" \altText
+tenorSystemText = \new Lyrics \lyricsto "tenor" \tenorText
+baritonEinsSystemText = \new Lyrics \lyricsto "baritonEins" \baritonEinsText
+baritonZweiSystemText = \new Lyrics \lyricsto "baritonZwei" \baritonZweiText
+bassSystemText = \new Lyrics \lyricsto "bass" \bassText
 
 akkolade = \new ChoirStaff <<
-    \tenorEinsSystem
-    \tenorEinsSystemText
+    \altSystem
+    \altSystemText
 
-    \tenorZweiSystem
-    \tenorZweiSystemText
+    \tenorSystem
+    \tenorSystemText
 
-    \bassEinsSystem
-    \bassEinsSystemText
+    \baritonEinsSystem
+    \baritonEinsSystemText
 
-    \bassZweiSystem
-    \bassZweiSystemText
+    \baritonZweiSystem
+    \baritonZweiSystemText
+    
+    \bassSystem
+    \bassSystemText
 >>
 
 \score { 
