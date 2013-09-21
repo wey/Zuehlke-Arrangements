@@ -20,8 +20,9 @@
 }
 
 global = {
-    \key es \major
+    \key f \major
     \time 6/8
+    \autoBeamOff
     \override Staff.InstrumentName #'self-alignment-X = #RIGHT
 } 
 
@@ -256,60 +257,60 @@ altText = \lyricmode {
 
 tenor = \relative c' {
     \global
-    g4. g4 g8
-    b2 ~ b8 b8
-    c4 c8 as4 c8
-    es2. 
-    b4 b8 g4 f8
-    es4. g4 as8
-    b4. as4 f8
-    es2.
+    a4. a4 a8
+    c2 ~ c8 c8
+    d4 d8 b4 d8
+    f2. 
+    c4 c8 a4 g8
+    f4. a4 b8
+    c4. b4 g8
+    f2.
     r2.
-    g4. g4 g8
+    a4. a4 a8
 % 10 ---
-    b2 ~ b8 b8
-    c4 c8 as4 c8
-    es2. 
-    b4 b8 a4 g8
-    d'4. b4 c8
-    d4. es4 d8
-    g,2.
-    r4. r4 b8
-    b4. c4.
-    f,2 r8 b8
+    c2 ~ c8 c8
+    d4 d8 b4 d8
+    f2. 
+    c4 c8 h4 a8
+    e'4. c4 d8
+    e4. f4 e8
+    a,2.
+    r4. r4 c8
+    c4. d4.
+    g,2 r8 c8
 % 20 ---
-    c4 b8 es4 g,8
-    c4. b4 b8
-    b4. c4.
-    f,2 r8 b8
-    c4 b8 es4 g,8
-    b2 r4
-    es2. ~
-    es4. d4 c8
-    d2. ~
-    d2 r8 d8
+    d4 c8 f4 a,8
+    d4. c4 c8
+    c4. d4.
+    g,2 r8 c8
+    d4 c8 f4 a,8
+    c2 r4
+    f2. ~
+    f4. e4 d8
+    e2. ~
+    e2 r8 e8
 % 30 ---
+    g2. ~
+    g4 d8 d4 d8
+    f2.
+    f2 r8 f8
+    a2.
+    g2 r8 c,8
     f2. ~
-    f4 c8 c4 c8
-    es2.
-    es2 r8 es8
-    g2.
-    f2 r8 b,8
-    es2. ~
-    es4. d4 c8
-    b2.
-    r4 b8 c4 b8
+    f4. e4 d8
+    c2.
+    r4 c8 d4 c8
 % 40 ---
-    b2. ~
-    b4 r8 es4.
+    c2. ~
+    c4 r8 f4.
+    g2. ~
+    g2 r8 c,8
+    a'2. ~
+    a4. g4.
+    f2.
+    e4.\turn f4 g8
     f2. ~
-    f2 r8 b,8
-    g'2. ~
-    g4. f4.
-    es2.
-    d4.\turn es4 f8
-    es2. ~
-    es2.
+    f2.
 % 50 ---
     R2.
     R2.
@@ -1166,11 +1167,11 @@ bassText = \lyricmode {
 
 }
 
-altStimme = \new Voice = "alt" \alt
-tenorStimme = \new Voice = "tenor" \tenor
-baritonEinsStimme = \new Voice = "baritonEins" \baritonEins
-baritonZweiStimme = \new Voice = "baritonZwei" \baritonZwei
-bassStimme = \new Voice = "bass" \bass
+altStimme = \new Voice = "alt" \transpose f f { \alt }
+tenorStimme = \new Voice = "tenor" \transpose f f { \tenor }
+baritonEinsStimme = \new Voice = "baritonEins" \transpose f f { \baritonEins }
+baritonZweiStimme = \new Voice = "baritonZwei" \transpose f f { \baritonZwei }
+bassStimme = \new Voice = "bass" \transpose f f { \bass }
 
 altSystem = \new Staff \with {
     midiInstrument = "flute"
