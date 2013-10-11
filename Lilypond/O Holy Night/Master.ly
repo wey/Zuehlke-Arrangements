@@ -27,7 +27,6 @@ global = {
 } 
 
 
-
 \include "Alt.ly"
 \include "Tenor.ly"
 \include "Bariton_1.ly"
