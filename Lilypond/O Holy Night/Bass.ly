@@ -1,3 +1,5 @@
+\version "2.16.2"
+
 bass = \relative c {
     \global
     R2.
@@ -110,14 +112,14 @@ bass = \relative c {
     R2.
     R2.
 % 100 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
+    f2.
+    c'2.
+    b2.
+    b2.
+    f4. f4.
+    c'4. c4.
+    b2. ~
+    b4. r4.
     R2.
     R2.
 % 110 ---

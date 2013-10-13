@@ -101,15 +101,16 @@ akkolade = \new ChoirStaff <<
     
     \bassSystem
     \bassSystemText
->>
 
+>>
+% showLastLength = R2.*100
 \score { 
     << \akkolade >>
     \layout { }
     \midi {
         \context {
           \Score
-          tempoWholesPerMinute = #(ly:make-moment 80 4)
+          tempoWholesPerMinute = #(ly:make-moment 90 4)
         }
     }
 }

@@ -1,3 +1,5 @@
+\version "2.16.2"
+
 tenor = \relative c' {
     \global
     r2.
@@ -110,14 +112,14 @@ tenor = \relative c' {
     R2.
     R2.
 % 100 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
+    c2.
+    c2.
+    d4. c4.
+    b4. b4.
+    a2.
+    g4. a4.
+    f2. ~
+    f4. r4.
     R2.
     R2.
 % 110 ---

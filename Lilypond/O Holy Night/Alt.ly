@@ -1,3 +1,5 @@
+\version "2.16.2"
+
 alt = \relative c' {
     \global
     a4. a4 a8

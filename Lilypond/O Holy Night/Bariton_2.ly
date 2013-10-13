@@ -1,3 +1,5 @@
+\version "2.16.2"
+
 baritonZwei = \relative c {
     \global
     R2.
@@ -110,14 +112,14 @@ baritonZwei = \relative c {
     R2.
     R2.
 % 100 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
+    f2.
+    e2.
+    f4. e4.
+    des4. b4.
+    c2. ~
+    c4. c4.
+    b2. ~
+    b4. r4.
     R2.
     R2.
 % 110 ---
