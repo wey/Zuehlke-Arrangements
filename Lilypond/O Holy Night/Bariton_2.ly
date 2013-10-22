@@ -11,25 +11,25 @@ baritonZwei = \relative c {
     d4. e4 e8
     d2.
     c4. r4.
-    R2.
+    c4. c4 c8
 % 10 ---
+    e4. ~ e4 r8
+    d4 d8 d4 d8
+    r8 f g f a4
+    c,4 r8 h4 h8
+    h4. r
     R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
+    a'4. r8 e ges
+    g4. ges
+    f2.
+    f4. e4 e8 
 % 20 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
+    f4 f8 f4 f8
+    a4. a4 a8
+    d,4. d8. e16 f8
+    f4. e4 e8
+    f4 g8 f4 f8
+    a4. h4.
     R2.
     R2.
     R2.

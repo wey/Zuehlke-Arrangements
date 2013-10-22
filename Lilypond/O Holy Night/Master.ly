@@ -2,7 +2,7 @@
 \language "deutsch"
 
 \header {
-    title = "O Holy Night"
+    title = "-"
     composer = "Adolphe Adam"
     arranger = "arr. by Zühlke"
     tagline = ""

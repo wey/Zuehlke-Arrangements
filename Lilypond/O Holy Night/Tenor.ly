@@ -8,18 +8,18 @@ tenor = \relative c' {
     a4. c4. 
     a4 r8 r4.
     b4. r4 r8
-    d4. e4 e8
-    f2.
+    d4. e4 e8  % evtl. streichen
+    f2. % evtl. Bariton übernehmen und alle weiteren Stimmen nach unten nehmen
     e4. r4.
-    r4. r4 r8
+    c4. c4 c8
 % 10 ---
-    c2 ~ c8 c8
-    d4 d8 b4 d8
-    f2. 
-    c4 c8 h4 a8
-    e'4. c4 d8
-    e4. f4 e8
-    a,2.
+    e4. ~ e4 r8
+    b4 b8 g4 g8
+    r8 c4 ~ c8 d4
+    a4 r8 ges4 ges8
+    h4. r4.
+    c8 h a h4 as8
+    a4. r4.
     r4. r4 c8
     c4. d4.
     g,2 r8 c8
@@ -27,9 +27,9 @@ tenor = \relative c' {
     d4 c8 f4 a,8
     d4. c4 c8
     c4. d4.
-    g,2 r8 c8
+    g,4. ~ g4 c8
     d4 c8 f4 a,8
-    c2 r4
+    d4. e4.
     f2. ~
     f4. e4 d8
     e2. ~
@@ -47,7 +47,7 @@ tenor = \relative c' {
     r4 c8 d4 c8
 % 40 ---
     c2. ~
-    c4 r8 f4.
+    c4 r8 f4. 
     g2. ~
     g2 r8 c,8
     a'2. ~
