@@ -9,27 +9,27 @@ bass = \relative c {
     R2.
     g4. r4.
     b4. c4 c8
-    b2.
-    g4. r4.
+    b2. (
+    g4. ) r4.
     f4. f4 f8
 % 10 ---
     a4. ~ a4 r8
     b4 b8 g4 d'8
-    r8 a b c f4
+    r8 a ( b c f4 )
     f,4 r8 es4 es8
     e4. e'4 e8
-    e8 d c h a as
+    e8 ( d c ) h ( a ) as
     a4. r4.
-    a4. as4.
+    a4. ( as4. )
     c4. ~ c4 c8
-    c4. r8 c c
+    c4. r4 c8
 % 20 ---
     f,4 d'8 c4 c8
     f4. e4 e8
        d4. d4.
     c4. ~ c4 r8
     a4 g8 f8. g16 a8
-    h4. des4.
+    h4. ( des4. )
     d2.
     R2.
     R2.
@@ -225,5 +225,15 @@ bass = \relative c {
 }
 
 bassText = \lyricmode {
-
+night
+dear Sa -- vior's birth. __
+Long lay the world
+sin and er -- ror
+i -- ning,
+He ap -- pear'd and the
+soul __ felt its worth.
+Oh __ thrill of hope
+the wea -- ry world re -- joi -- ces,
+For yon -- der breaks
+new and glo -- ri -- ous morn. __
 }
