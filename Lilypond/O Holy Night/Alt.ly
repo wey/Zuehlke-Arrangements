@@ -1,35 +1,36 @@
 \version "2.16.2"
+\language "deutsch"
 
 alt = \relative c' {
     \global
-    a4. a4 a8
-    c4. ~ c4 c8
-    d4 d8 b4 d8
-    f2. 
-    c4 c8 a4 g8
-    f4. r8 a8 b8
-    c4. a4 g8
-    f4. ~ f8 g8 a8
-    g4. r4.
-    a4. a4 a8
+    h4. h4 h8
+    d4. ~ d4 d8
+    e4 e8 c4 e8
+    g2. 
+    d4 d8 h4 a8
+    g4. r8 h8 c8
+    d4. h4 a8
+    g4. ~ g8 a8 h8
+    a4. r4.
+    h4. h4 h8
 % 10 ---
-    c4. ~ c4 c8
-    d4 d8 b4 d8
-    f2. 
-    c4 c8 h4 a8
-    e'4. c4 d8
-    e4. f4 e8
-    a,4. r8 c ( d )
-    e4. ( es4. )
-    d2.
-    d2. 
+    d4. ~ d4 d8
+    e4 e8 c4 e8
+    g2. 
+    d4 d8 cis4 h8
+    fis'4. d4 e8
+    fis4. g4 fis8
+    h,4. r8 d ( e )
+    fis4. ( f4. )
+    e2.
+    e2. 
 % 20 ---
     R2.
     R2.
-    b4. b8. ( c16 d8 )
-    c4. ~ c4 c8
-    c4 c8 c4 c8
-    g'4. ( a4. )
+    c4. c8. ( d16 e8 )
+    d4. ~ d4 d8
+    d4 d8 d4 d8
+    a'4. ( h4. )
     R2.
     R2.
     R2.

@@ -1,4 +1,5 @@
 \version "2.16.2"
+\language "deutsch"
 
 bass = \relative c {
     \global
@@ -7,57 +8,58 @@ bass = \relative c {
     R2.
     R2.
     R2.
-    g4. r4.
-    b4. c4 c8
-    b2. (
-    g4. ) r4.
-    f4. f4 f8
-% 10 ---
-    a4. ~ a4 r8
-    b4 b8 g4 d'8
-    r8 a ( b c f4 )
-    f,4 r8 es4 es8
-    e4. e'4 e8
-    e8 ( d c ) h ( a ) as
     a4. r4.
-    a4. ( as4. )
-    c4. ~ c4 c8
-    c4. r4 c8
+    c4. d4 d8
+    c2. (
+    a4. ) r4.
+    g4. g4 g8
+% 10 ---
+    h4. ~ h4 r8
+    c4 c8 a4 e'8
+    r8 h ( c d g4 )
+    g,4 r8 f4 f8
+    fis4. fis'4 fis8
+    fis8 ( e d ) cis ( h ) b
+    h4. r4.
+    h4. ( b4. )
+    d4. ~ d4 d8
+    d4. r4 d8
 % 20 ---
-    f,4 d'8 c4 c8
-    f4. e4 e8
-       d4. d4.
-    c4. ~ c4 r8
-    a4 g8 f8. g16 a8
-    h4. ( des4. )
+    g,4 e'8 d4 d8
+    g4. fis4 fis8
+       e4. e4.
+    d4. ~ d4 r8
+    h4 a8 g8. a16 h8
+    cis4. ( es4. )
+    e2.
+    cis2.
     d2.
+    g,2.
+% 30 ---
+    c4 h8 ~ h8 a4
+    fis4 fis8 h4 h8
+    e2.
+    d4. ~ d8 d8 c8  
+    c4. g'4.
+    d4. r4.
+    a4. c4.
+    d4 r8 r4.
+    e,2.
+    fis2.
+% 40 ---
+    g2. ~
+    g8 r4 g'8 d8 g,8
+    a4 a8 ~ a8 c4
+    d2.
+    d8 c8 h8 g4 g8
+    c4. r4.
+    r4. g4.
+    d'4. r4.
+    g,4. ~ g8 g8 g8
     h2.
     c2.
-    f,2.
-% 30 ---
-    b4 a8 ~ a8 g4
-    e4 e8 a4 a8
-    d2.
-    c4. ~ c8 c8 b8  
-    b4. f'4.
-    c4. r4.
-    g4. b4.
-    c4 r8 r4.
-    d2.
-    c2.
-% 40 ---
-    f,2. ~
-    f8 r4 f'8 c8 a8
-    d4 e8 ~ e8 c4
-    b2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
 % 50 ---
-    R2.
+    c2.
     R2.
     R2.
     R2.
@@ -112,14 +114,14 @@ bass = \relative c {
     R2.
     R2.
 % 100 ---
-    f2.
-    c'2.
-    b2.
-    b2.
-    f4. f4.
-    c'4. c4.
-    b2. ~
-    b4. r4.
+    g2.
+    d'2.
+    c2.
+    c2.
+    g4. g4.
+    d'4. d4.
+    c2. ~
+    c4. r4.
     R2.
     R2.
 % 110 ---

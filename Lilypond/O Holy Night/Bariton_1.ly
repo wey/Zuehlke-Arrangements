@@ -1,64 +1,65 @@
 \version "2.16.2"
+\language "deutsch"
 
-baritonEins = \relative c {
+baritonEins = \relative c' {
     \global
-    f4. f4 f8
-    e4. ~ e8 r8 e8
-    f4 f8 f4 f8
-    f4. ( a4. )
-    f4 r8 r4.
-    d4. r4.
-    f4. g4 g8
-    c4. ( b4.
-    c4. ) r4.
-    g8 ( f4 ) f8 ( e ) d
+    g4. g4 g8
+    fis4. ~ fis8 r8 fis8
+    g4 g8 g4 g8
+    g4. ( h4. )
+    g4 r8 r4.
+    e4. r4.
+    g4. a4 a8
+    d4. ( c4.
+    d4. ) r4.
+    a8 ( g4 ) g8 ( fis ) e
 % 10 ---
-    g4. ~ g4 r8
-    f4 f8 f4 f8
-    r8 a ( b a c4 )
-    g4 r8 es4 es8
-    a4. r4.
-    r4. as4 as8 
-    a4. r8 a ( h )
-    c2. 
-    b2.
-    b4. ~ b4 g8
+    a4. ~ a4 r8
+    g4 g8 g4 g8
+    r8 h ( c h d4 )
+    a4 r8 f4 f8
+    h4. r4.
+    r4. b4 b8 
+    h4. r8 h ( cis )
+    d2. 
+    c2.
+    c4. ~ c4 a8
 % 20 ---
-    b4 b8 a4 a8
-    c4. g4 a8 
-    f4. f4.
-    b4. ~ b4 b8
-    a4 a8 c4 c8
-    h4. ( a4. )
+    c4 c8 h4 h8
+    d4. a4 h8 
+    g4. g4.
+    c4. ~ c4 c8
+    h4 h8 d4 d8
+    cis4. ( h4. )
+    r8 h4 r8 h4
     r8 a4 r8 a4
-    r8 g4 r8 g4
-    r8 g4 r8 g4
     r8 a4 r8 a4
+    r8 h4 r8 h4
 % 30 ---
-    d4 c8 ~ c8 b4
-    g4 g8 e4 e8
-    a2.
-    as4 g8 ~ g8 g8 f8  
-    f4. b4.
-    c4. r4 g8
-    b4. b4.
-    c4 r8 r4.
-    r4. f,8 b8 a8
-    g4. r4.
+    e4 d8 ~ d8 c4
+    a4 a8 fis4 fis8
+    h2.
+    b4 a8 ~ a8 a8 g8  
+    g4. c4.
+    d4. r4 a8
+    c4. c4.
+    d4 r8 r4.
+    r4. g,8 c8 h8
+    a4. r4.
 % 40 ---
-    a4. b4.
-    a8 r4 r8 f4
-    g 2. ~
-    g2 r8 c,8
-    a'4. ~ a4 g16 a16
-    b4. a4 g8
-    f2.
-    e4.\turn f4 g8
-    f2. ~
-    f2.
+    h4. c4.
+    h8 r4 r8 g4
+    a 2. ~
+    a2 r8 d,8
+    h'4. ~ h4 a16 h16
+    c4. h4 a8
+    g2.
+    r4 fis8 g4 a8
+    g4. ~ g8 a8 h8
+    d4. a4.
 % 50 ---
-    R2.
-    R2.
+    c2.
+    g2.
     R2.
     R2.
     R2.
@@ -112,14 +113,14 @@ baritonEins = \relative c {
     R2.
     R2.
 % 100 ---
-    a2.
+    h2.
+    a4. h4.
+    g2. ~
     g4. a4.
-    f2. ~
-    f4. g4.
-    f2.
-    e2.
-    d2. ~
-    d4. r4.
+    g2.
+    fis2.
+    e2. ~
+    e4. r4.
     R2.
     R2.
 % 110 ---

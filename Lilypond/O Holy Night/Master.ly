@@ -20,7 +20,7 @@
 }
 
 global = {
-    \key f \major
+    \key g \major
     \time 6/8
     \autoBeamOff
     \override Staff.InstrumentName #'self-alignment-X = #RIGHT
@@ -34,11 +34,11 @@ global = {
 \include "Bass.ly"
 
 
-altStimme = \new Voice = "alt" \transpose f f { \alt }
-tenorStimme = \new Voice = "tenor" \transpose f f { \tenor }
-baritonEinsStimme = \new Voice = "baritonEins" \transpose f f { \baritonEins }
-baritonZweiStimme = \new Voice = "baritonZwei" \transpose f f { \baritonZwei }
-bassStimme = \new Voice = "bass" \transpose f f { \bass }
+altStimme = \new Voice = "alt" \transpose g g { \alt }
+tenorStimme = \new Voice = "tenor" \transpose g g { \tenor }
+baritonEinsStimme = \new Voice = "baritonEins" \transpose g g { \baritonEins }
+baritonZweiStimme = \new Voice = "baritonZwei" \transpose g g { \baritonZwei }
+bassStimme = \new Voice = "bass" \transpose g g { \bass }
 
 altSystem = \new Staff \with {
     midiInstrument = "flute"
