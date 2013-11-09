@@ -30,32 +30,32 @@ baritonEins = \relative c {
     b4. ~ b4 b8
     a4 a8 c4 c8
     h4. ( a4. )
-    R2.
-    R2.
-    R2.
-    R2.
+    r8 a4 r8 a4
+    r8 g4 r8 g4
+    r8 g4 r8 g4
+    r8 a4 r8 a4
 % 30 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
+    d4 c8 ~ c8 b4
+    g4 g8 e4 e8
+    a2.
+    as4 g8 ~ g8 g8 f8  
+    f4. b4.
+    c4. r4 g8
+    b4. b4.
+    c4 r8 r4.
+    r4. f,8 b8 a8
+    g4. r4.
 % 40 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
+    a4. b4.
+    a8 r4 r8 f4
+    g 2. ~
+    g2 r8 c,8
+    a'4. ~ a4 g16 a16
+    b4. a4 g8
+    f2.
+    e4.\turn f4 g8
+    f2. ~
+    f2.
 % 50 ---
     R2.
     R2.

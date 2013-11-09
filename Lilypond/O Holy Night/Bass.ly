@@ -31,25 +31,25 @@ bass = \relative c {
     a4 g8 f8. g16 a8
     h4. ( des4. )
     d2.
-    R2.
-    R2.
-    R2.
+    h2.
+    c2.
+    f,2.
 % 30 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
+    b4 a8 ~ a8 g4
+    e4 e8 a4 a8
+    d2.
+    c4. ~ c8 c8 b8  
+    b4. f'4.
+    c4. r4.
+    g4. b4.
+    c4 r8 r4.
+    d2.
+    c2.
 % 40 ---
-    R2.
-    R2.
-    R2.
-    R2.
+    f,2. ~
+    f8 r4 f'8 c8 a8
+    d4 e8 ~ e8 c4
+    b2.
     R2.
     R2.
     R2.

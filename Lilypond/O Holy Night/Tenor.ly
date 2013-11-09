@@ -30,32 +30,43 @@ tenor = \relative c' {
     g,4. ~ g4 c8
     d4 c8 f4 a,8
     d4. ( e4. )
-    f2. ~
-    f4. e4 d8
-    e2. ~
-    e2 r8 e8
+    f8 r8 d8 f8 r8 d8
+    f8 r8 d8 f8 r8 d8
+    e8 r8 c8 e8 r8 c8
+    e8 r8 c8 e8 r8 c8
 % 30 ---
-    g2. ~
-    g4 d8 d4 d8
-    f2.
-    f2 r8 f8
-    a2.
-    g2 r8 c,8
-    f2. ~
-    f4. e4 d8
+    f4 e8 ~ e8 d4
+    b4 b8 a4 a8
+    c4 b8 ~ b8 c8 es8
+    c4. ~ c8 c8 b8
+    d4. f4.
+    e 4. r4 e8
+    d4. d4.
+    e4 r8 e4 d8
     c2.
     r4 c8 d4 c8
 % 40 ---
     c2. ~
-    c4 r8 f4. 
-    g2. ~
-    g2 r8 c,8
-    a'2. ~
-    a4. g4.
-    f2.
-    e4.\turn f4 g8
-    f2. ~
-    f2.
+    c8 c8 b8 a4. 
+    c2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+% 40 ---
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
 % 50 ---
     R2.
     R2.
