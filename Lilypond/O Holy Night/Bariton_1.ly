@@ -3,12 +3,12 @@
 
 baritonEins = \relative c' {
     \global
-    g4. g4 g8
-    fis4. ~ fis8 r8 fis8
-    g4 g8 g4 g8
-    g4. ( h4. )
-    g4 r8 r4.
-    e4. r4.
+    R2.
+    a4. ~ a8 r8 a8
+    c4 c8 c4 c8
+    h4. ( d4. )
+    h4 r8 r4.
+    c4. r4.
     g4. a4 a8
     d4. ( c4.
     d4. ) r4.
@@ -19,7 +19,7 @@ baritonEins = \relative c' {
     r8 h ( c h d4 )
     a4 r8 f4 f8
     h4. r4.
-    r4. b4 b8 
+    r4. ais4 ais8 
     h4. r8 h ( cis )
     d2. 
     c2.
@@ -226,7 +226,7 @@ baritonEins = \relative c' {
 }
 
 baritonEinsText = \lyricmode {
-O ho -- ly night! The stars are bright -- ly shi -- ning,
+night! The stars are bright -- ly shi -- ning,
 night dear Sa -- viour's birth. __
 Long lay the world
 sin and er -- ror

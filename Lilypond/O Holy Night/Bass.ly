@@ -5,10 +5,10 @@ bass = \relative c {
     \global
     R2.
     R2.
-    R2.
-    R2.
-    R2.
-    a4. r4.
+    e4 e8 e4 e8
+    d4. (g4.  )
+    e4 r8 r4.
+    a,4. r4.
     c4. d4 d8
     c2. (
     a4. ) r4.
@@ -18,8 +18,8 @@ bass = \relative c {
     c4 c8 a4 e'8
     r8 h ( c d g4 )
     g,4 r8 f4 f8
-    fis4. fis'4 fis8
-    fis8 ( e d ) cis ( h ) b
+    fis!4. fis'4 fis8
+    fis8 ( e d ) cis ( h ) ais
     h4. r4.
     h4. ( b4. )
     d4. ~ d4 d8
@@ -30,7 +30,7 @@ bass = \relative c {
        e4. e4.
     d4. ~ d4 r8
     h4 a8 g8. a16 h8
-    cis4. ( es4. )
+    cis4. ( dis4. )
     e2.
     cis2.
     d2.
@@ -57,10 +57,9 @@ bass = \relative c {
     d'4. r4.
     g,4. ~ g8 g8 g8
     h2.
-    c2.
 % 50 ---
     c2.
-    R2.
+    c2.
     R2.
     R2.
     R2.
@@ -227,7 +226,7 @@ bass = \relative c {
 }
 
 bassText = \lyricmode {
-night
+stars are bright -- ly shi -- ning, night
 dear Sa -- vior's birth. __
 Long lay the world
 sin and er -- ror

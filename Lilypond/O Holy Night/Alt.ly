@@ -3,12 +3,12 @@
 
 alt = \relative c' {
     \global
-    h4. h4 h8
-    d4. ~ d4 d8
-    e4 e8 c4 e8
-    g2. 
-    d4 d8 h4 a8
-    g4. r8 h8 c8
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
+    R2.
     d4. h4 a8
     g4. ~ g8 a8 h8
     a4. r4.
@@ -226,8 +226,7 @@ alt = \relative c' {
 }
 
 altText = \lyricmode {
-O ho -- ly night! The stars are bright -- ly shi -- ning,
-It is the night of our dear Sa -- viour's birth. __ _ _ _
+dear Sa -- viour's birth. __ _ _ _
 Long lay the world in sin and er -- ror pi -- ning,
 'Til He ap -- pear'd and the soul felt its worth.
 Oh __ oh __

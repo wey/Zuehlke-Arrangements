@@ -1,14 +1,14 @@
 \version "2.16.2"
 \language "deutsch"
 
-baritonZwei = \relative c {
+baritonZwei = \relative c' {
     \global
-    R2.
-    R2.
-    e4 e8 e4 e8
-    d4. (g4.  )
-    e4 r8 r4.
-    c4. r4.
+    g4. g4 g8
+    fis4. ~ fis8 r8 fis8
+    g4 g8 g4 g8
+    g4. ( h4. )
+    g4 r8 r4.
+    e4. r4.
     e4. fis4 fis8
     e2. (
     d4. ) r4.
@@ -56,10 +56,11 @@ baritonZwei = \relative c {
     r4. d,4.
     g4. r4.
     d4. ~ d8 e8 fis8
-% 50 ---
     a4. fis4.
+% 50 ---
     g4. r8 g8 a8
     b8 a8 g8 es4.
+    R2.
     R2.
     R2.
     R2.
@@ -225,7 +226,7 @@ baritonZwei = \relative c {
 }
 
 baritonZweiText = \lyricmode {
-stars are bright -- ly shi -- ning, night
+O ho -- ly night! The stars are bright -- ly shi -- ning, night
 dear Sa -- vior's birth. __
 Long lay the world
 sin and er -- ror

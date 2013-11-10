@@ -3,12 +3,12 @@
 
 tenor = \relative c' {
     \global
-    r2.
-    a4. ~ a8 r8 a8
-    c4 c8 c4 c8
-    h4. ( d4. )
-    h4 r8 r4.
-    c4. r4 r8
+    h4. h4 h8
+    d4. ~ d4 d8
+    e4 e8 c4 e8
+    g2. 
+    d4 d8 h4 a8
+    g4. r8 h8 c8
     e4. fis4 fis8  % evtl. streichen
     g2.
     ( fis4. ) r4.
@@ -19,7 +19,7 @@ tenor = \relative c' {
     r8 d4 ~  d8 e4
     h4 r8 as4 as8
     cis4. r4.
-    d8 ( cis h ) cis4 b8
+    d8 ( cis h ) cis4 ais8
     h4. r4.
     r4. r4 d8
     d4. e4.
@@ -57,20 +57,9 @@ tenor = \relative c' {
     c4. r4.
     h4. h8 c8 d8
     fis4. d4.
-% 40 ---
+% 50 ---
     e2.
     es2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 50 ---
-    R2.
-    R2.
     R2.
     R2.
     R2.
@@ -237,8 +226,8 @@ tenor = \relative c' {
 }
 
 tenorText = \lyricmode {
-night! The stars are bright -- ly shi -- ning,
-night
+O ho -- ly night! The stars are bright -- ly shi -- ning,
+It is the night of our 
 dear Sa -- viour's birth. __
 Long lay the world
 sin and er -- ror
