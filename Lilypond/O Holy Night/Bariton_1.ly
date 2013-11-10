@@ -15,22 +15,22 @@ baritonEins = \relative c' {
     a8 ( g4 ) g8 ( fis ) e
 % 10 ---
     a4. ~ a4 r8
-    g4 g8 g4 g8
-    r8 h ( c h d4 )
-    a4 r8 f4 f8
-    h4. r4.
-    r4. ais4 ais8 
+    c4 c8 a4 a8
+    r8 h ( c h e4 )
+    a,4 r8 as4 as8
+    cis4. r4.
+    d8 ( cis h ) cis4 ais8
     h4. r8 h ( cis )
-    d2. 
+    d4. f4. 
     c2.
     c4. ~ c4 a8
 % 20 ---
     c4 c8 h4 h8
     d4. a4 h8 
-    g4. g4.
+    c4. c8. ( d16 e8 )
     c4. ~ c4 c8
-    h4 h8 d4 d8
-    cis4. ( h4. )
+    d4 h8 d4 d8
+    cis4. ( cis4. )
     r8 h4 r8 h4
     r8 a4 r8 a4
     r8 a4 r8 a4

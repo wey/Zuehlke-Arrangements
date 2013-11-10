@@ -9,19 +9,19 @@ tenor = \relative c' {
     g2. 
     d4 d8 h4 a8
     g4. r8 h8 c8
-    e4. fis4 fis8  % evtl. streichen
-    g2.
+    d4. h4 a8
+    g4. ~ g8 a8 h8
     ( fis4. ) r4.
-    d4. d4 d8
+    h4. h4 h8
 % 10 ---
-    fis4. ~ fis4 r8
-    c4 c8 a4 a8
-    r8 d4 ~  d8 e4
-    h4 r8 as4 as8
-    cis4. r4.
-    d8 ( cis h ) cis4 ais8
-    h4. r4.
-    r4. r4 d8
+    d4. ~ d4 d8
+    e4 e8 c4 e8
+    g2. 
+    d4 d8 des4 h8
+    fis'4. d4 e8
+    fis4. g4 fis8
+    h,4. r8 d ( e )
+    fis4. r4 d8
     d4. e4.
     a,2 r8 d8
 % 20 ---

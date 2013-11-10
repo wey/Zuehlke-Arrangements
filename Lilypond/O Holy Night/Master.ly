@@ -27,26 +27,16 @@ global = {
 } 
 
 
-\include "Alt.ly"
 \include "Tenor.ly"
 \include "Bariton_1.ly"
 \include "Bariton_2.ly"
 \include "Bass.ly"
 
 
-altStimme = \new Voice = "alt" \transpose g g { \alt }
 tenorStimme = \new Voice = "tenor" \transpose g g { \tenor }
 baritonEinsStimme = \new Voice = "baritonEins" \transpose g g { \baritonEins }
 baritonZweiStimme = \new Voice = "baritonZwei" \transpose g g { \baritonZwei }
 bassStimme = \new Voice = "bass" \transpose g g { \bass }
-
-altSystem = \new Staff \with {
-    midiInstrument = "flute"
-    instrumentName = "Alt"
-} {
-    \clef "treble_8"
-    \altStimme
-}
 
 tenorSystem = \new Staff \with {
     midiInstrument = "flute"
@@ -80,27 +70,23 @@ bassSystem = \new Staff \with {
     \bassStimme
 }
 
-altSystemText = \new Lyrics \lyricsto "alt" \altText
 tenorSystemText = \new Lyrics \lyricsto "tenor" \tenorText
 baritonEinsSystemText = \new Lyrics \lyricsto "baritonEins" \baritonEinsText
 baritonZweiSystemText = \new Lyrics \lyricsto "baritonZwei" \baritonZweiText
 bassSystemText = \new Lyrics \lyricsto "bass" \bassText
 
 akkolade = \new ChoirStaff <<
-    \altSystem
-    \altSystemText
-
     \tenorSystem
-    \tenorSystemText
+    % \tenorSystemText
 
     \baritonEinsSystem
-    \baritonEinsSystemText
+    % \baritonEinsSystemText
 
     \baritonZweiSystem
-    \baritonZweiSystemText
+    % \baritonZweiSystemText
     
     \bassSystem
-    \bassSystemText
+    % \bassSystemText
 
 >>
 % showLastLength = R2.*100

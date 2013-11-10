@@ -11,8 +11,8 @@ bass = \relative c {
     a,4. r4.
     c4. d4 d8
     c2. (
-    a4. ) r4.
-    g4. g4 g8
+    d4. ) r4.
+    g,4. g4 g8
 % 10 ---
     h4. ~ h4 r8
     c4 c8 a4 e'8
