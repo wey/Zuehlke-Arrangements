@@ -3,8 +3,8 @@
 
 bass = \relative c {
     \global
-    R2.
-    R2.
+    g4. g4 g8
+    h4. ~ h8 r8 h8
     e4 e8 e4 e8
     d4. (g4.  )
     e4 r8 r4.

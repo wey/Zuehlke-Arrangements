@@ -1,9 +1,9 @@
 \version "2.16.2"
 \language "deutsch"
 
-baritonZwei = \relative c' {
+baritonZwei = \relative c {
     \global
-    g4. g4 g8
+    d4. d4 d8
     fis4. ~ fis8 r8 fis8
     g4 g8 g4 g8
     g4. ( h4. )

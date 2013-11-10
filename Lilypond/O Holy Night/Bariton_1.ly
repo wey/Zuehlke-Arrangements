@@ -3,7 +3,7 @@
 
 baritonEins = \relative c' {
     \global
-    R2.
+    g4. g4 g8
     a4. ~ a8 r8 a8
     c4 c8 c4 c8
     h4. ( d4. )
