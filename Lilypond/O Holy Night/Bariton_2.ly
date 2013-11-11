@@ -58,8 +58,8 @@ baritonZwei = \relative c {
     d4. ~ d8 e8 fis8
     a4. fis4.
 % 50 ---
-    g4. r8 g8 a8
-    b8 a8 g8 es4.
+    g4. r8 g8[ a8]
+    b8[ a8 g8] es4.
     R2.
     R2.
     R2.
@@ -157,72 +157,6 @@ baritonZwei = \relative c {
     R2.
     R2.
 % 140 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 150 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 160 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 170 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 180 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 190 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 200 ---
 }
 
 baritonZweiText = \lyricmode {
@@ -237,9 +171,7 @@ baritonZweiText = \lyricmode {
     the wea -- ry world re -- joi -- ces,
     For yon -- der __ breaks a new and glo -- rious morn.
     Fall on your knees! Oh, hear the an -- gel voi -- ces! 
-% O night divine, the night when Christ was born; 
-% O night, O Holy Night , O night divine! 
-% O night, O Holy Night , O night divine! 
-
-
+    O night __ _ _ di -- vi - ne, o night born __ _ _
+    Oh o ho -- ly night, O night di -- vine! O night
+    O ho -- ly ho -- ly night oh __ _ _
 }

@@ -39,19 +39,19 @@ baritonEins = \relative c' {
     e4 d8 ~ d8 c4
     a4 a8 fis4 fis8
     h2.
-    b4 a8 ~ a8 a8 g8  
+    b4 a8 ~ a8 a8[ g8]
     g4. c4.
     d4. r4 a8
     c4. c4.
     d4 r8 r4.
-    r4. g,8 c8 h8
+    r4. g,8[ c8 h8]
     a4. r4.
 % 40 ---
     h4. c4.
     h8 r4 r8 g4
     a 2. ~
     a2 r8 d,8
-    h'4. ~ h4 a16 h16
+    h'4. ~ h4 a16[ h16]
     c4. h4 a8
     g2.
     r4 fis8 g4 a8
@@ -157,84 +157,23 @@ baritonEins = \relative c' {
     R2.
     R2.
 % 140 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 150 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 160 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 170 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 180 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 190 ---
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-    R2.
-% 200 ---
 }
 
 baritonEinsText = \lyricmode {
-O ho -- ly night! The stars are bright -- ly shi -- ning,
-night dear Sa -- viour's birth. __
-Long lay the world
-sin and er -- ror
-pi -- ning,
-He ap -- pear'd felt __ its worth.
-Oh __
-thrill hope
-the wea -- ry world re -- joi -- ces,
-For yon -- der __ breaks a new and glo -- rious morn.
+    O ho -- ly night! The stars are bright -- ly shi -- ning,
+    night dear Sa -- viour's birth. __
+    Long lay the world
+    sin and er -- ror
+    pi -- ning,
+    He ap -- pear'd felt __ its worth.
+    Oh __
+    thrill hope
+    the wea -- ry world re -- joi -- ces,
+    For yon -- der __ breaks a new and glo -- rious morn.
+    da da da da da da da da
+    hear __ _ _ _ the an -- gel voi -- ces! __ _
+    O night __ _ _ di -- vi - ne, o night born __ _ _
+    O night di -- vine __ _ _ o __ _ night o night di -- vine
+    ho -- ly ho -- ly night oh
 }
 
