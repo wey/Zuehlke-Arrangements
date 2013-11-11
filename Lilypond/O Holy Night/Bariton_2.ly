@@ -16,18 +16,18 @@ baritonZwei = \relative c {
 % 10 ---
     fis4. ~ fis4 r8
     g4 g8 g4 g8
-    r8 g ( a g d'4 )
+    r8 g[ ( a g] d'4 )
     h4 r8 des,4 des8
     h'4. r4.
     r4. ais4 fis8
-    h,4. r8 fis' ( gis )
-    a4. ( as )
+    h,4. r8 fis' ( gis
+    a4. as )
     g2.
     g4. ( fis4 ) fis8
 % 20 ---
     g4 g8 g4 g8
     h4. h4 h8
-    g4. e8. ( fis16 g8 )
+    g4. e8.[ ( fis16 g8] )
     g4. ( fis4 ) fis8
     g4 a8 g4 g8
     a4. ( h4. )
@@ -37,7 +37,7 @@ baritonZwei = \relative c {
     fis2 r8 fis8
 % 30 ---
     a2. ~
-    a4 e8 dis8 e8 fis8
+    a4 e8 dis8[ e8] fis8
     g2.
     g4. ~ g8 g4
     h4. d4.
@@ -226,14 +226,20 @@ baritonZwei = \relative c {
 }
 
 baritonZweiText = \lyricmode {
-O ho -- ly night! The stars are bright -- ly shi -- ning, night
-dear Sa -- vior's birth. __
-Long lay the world
-sin and er -- ror
-i -- ning,
-He ap -- pear'd felt its worth.
-Oh __ oh
-thrill hope
-the wea -- ry world re -- joi -- ces,
-For yon -- der __ breaks a new and glo -- rious morn. __
+    O ho -- ly night! The stars are bright -- ly shi -- ning, night
+    dear Sa -- vior's birth. __
+    Long lay the world
+    sin and er -- ror
+    pi -- ning,
+    He ap -- pear'd felt its worth.
+    Oh __
+    thrill hope
+    the wea -- ry world re -- joi -- ces,
+    For yon -- der __ breaks a new and glo -- rious morn.
+    Fall on your knees! Oh, hear the an -- gel voi -- ces! 
+% O night divine, the night when Christ was born; 
+% O night, O Holy Night , O night divine! 
+% O night, O Holy Night , O night divine! 
+
+
 }

@@ -77,16 +77,16 @@ bassSystemText = \new Lyrics \lyricsto "bass" \bassText
 
 akkolade = \new ChoirStaff <<
     \tenorSystem
-    % \tenorSystemText
+    \tenorSystemText
 
     \baritonEinsSystem
-    % \baritonEinsSystemText
+    \baritonEinsSystemText
 
     \baritonZweiSystem
-    % \baritonZweiSystemText
+    \baritonZweiSystemText
     
     \bassSystem
-    % \bassSystemText
+    \bassSystemText
 
 >>
 % showLastLength = R2.*100

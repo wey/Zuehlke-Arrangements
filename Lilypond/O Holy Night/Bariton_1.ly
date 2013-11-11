@@ -12,22 +12,22 @@ baritonEins = \relative c' {
     g4. a4 a8
     d4. ( c4.
     d4. ) r4.
-    a8 ( g4 ) g8 ( fis ) e
+    a8 ( g4 ) g8[ ( fis] ) e
 % 10 ---
     a4. ~ a4 r8
     c4 c8 a4 a8
-    r8 h ( c h e4 )
+    r8 h[ ( c h] e4 )
     a,4 r8 as4 as8
     cis4. r4.
-    d8 ( cis h ) cis4 ais8
-    h4. r8 h ( cis )
-    d4. f4. 
+    d8[ ( cis h] cis4 ) ais8
+    h4. r8 h ( cis
+    d4. f4. )
     c2.
     c4. ~ c4 a8
 % 20 ---
     c4 c8 h4 h8
     d4. a4 h8 
-    c4. c8. ( d16 e8 )
+    c4. c8.[ ( d16 e8] )
     c4. ~ c4 c8
     d4 h8 d4 d8
     cis4. ( cis4. )
@@ -226,15 +226,15 @@ baritonEins = \relative c' {
 }
 
 baritonEinsText = \lyricmode {
-night! The stars are bright -- ly shi -- ning,
+O ho -- ly night! The stars are bright -- ly shi -- ning,
 night dear Sa -- viour's birth. __
 Long lay the world
 sin and er -- ror
-i -- ning,
-He ap -- pear'd felt its worth.
-Oh __ oh
+pi -- ning,
+He ap -- pear'd felt __ its worth.
+Oh __
 thrill hope
 the wea -- ry world re -- joi -- ces,
-For yon -- der __ breaks a new and glo -- rious morn. __
+For yon -- der __ breaks a new and glo -- rious morn.
 }
 

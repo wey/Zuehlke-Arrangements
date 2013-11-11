@@ -10,8 +10,8 @@ tenor = \relative c' {
     d4 d8 h4 a8
     g4. r8 h8 c8
     d4. h4 a8
-    g4. ~ g8 a8 h8
-    ( fis4. ) r4.
+    g4. ~ g8[ a8 h8]
+    ( a4. ) r4.
     h4. h4 h8
 % 10 ---
     d4. ~ d4 d8
@@ -229,12 +229,12 @@ tenorText = \lyricmode {
 O ho -- ly night! The stars are bright -- ly shi -- ning,
 It is the night of our 
 dear Sa -- viour's birth. __
-Long lay the world
+Long lay the world in
 sin and er -- ror
-i -- _ ning,
-He ap -- pear'd soul __ felt its worth.
-A thrill of hope the wea -- ry world re -- joi -- ces,
-For yon -- der __ breaks a new and glo -- rious morn. __
+pi -- _ ning,
+He ap -- pear'd soul __ _ _ felt its worth.
+Oh __ _ A thrill of hope the wea -- ry world re -- joi -- ces,
+For yon -- der __ breaks a new and glo -- rious morn.
 % For yonder breaks a new and glorious morn.
 
 }

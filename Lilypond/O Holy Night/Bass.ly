@@ -16,10 +16,10 @@ bass = \relative c {
 % 10 ---
     h4. ~ h4 r8
     c4 c8 a4 e'8
-    r8 h ( c d g4 )
+    r8 h[ ( c d] g4 )
     g,4 r8 f4 f8
     fis!4. fis'4 fis8
-    fis8 ( e d ) cis ( h ) ais
+    fis8[ ( e d] ) cis[ ( h] ) ais
     h4. r4.
     h4. ( b4. )
     d4. ~ d4 d8
@@ -226,15 +226,15 @@ bass = \relative c {
 }
 
 bassText = \lyricmode {
-stars are bright -- ly shi -- ning, night
-dear Sa -- vior's birth. __
+O ho -- ly night! The stars are bright -- ly shi -- ning, 
+night dear Sa -- vior's birth. __
 Long lay the world
 sin and er -- ror
-i -- ning,
+pi -- ning,
 He ap -- pear'd and the
 soul __ felt its worth.
 Oh __ thrill of hope
 the wea -- ry world re -- joi -- ces,
 For yon -- der breaks
-new and glo -- ri -- ous morn. __
+new and glo -- ri -- ous morn.
 }
