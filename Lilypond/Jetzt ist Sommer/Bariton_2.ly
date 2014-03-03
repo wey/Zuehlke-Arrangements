@@ -11,6 +11,8 @@ baritonZwei = \relative c' {
     f4 f4 r2
     g4 g4 r2
     
+    \bar "||"
+    
     % Strophe 1
     
     g4 g4 r2
@@ -43,7 +45,9 @@ baritonZwei = \relative c' {
     r4 c8 c8 c8 c8 c8 c8 
     d4 r4 g,4 fis4
     
-    % Refrain
+    \bar "||"
+    
+    % Refrain 1
     
     fis8 g8 ~ g8 g8 d'4 d8 d8
     des4 des8 des8 des4 r4
@@ -64,38 +68,96 @@ baritonZwei = \relative c' {
     r4 des8 des8 r4 des4
     c8 c8 c4 c4 c4
     c4 h4 h4 r4
+
+    \bar "||"
+    
+    % Strophe 2
+    
+    g4 g4 r2
+    g4 g4 r2
+    f4 f4 r2
+    g4 g4 r2
+    
+    g4 g4 r2
+    g4 g4 r2
+    f4 f4 r2
+    g4 g4 r2
+
+    g4 g4 g8 g8 g4
+    g8 g8 ~ g8 g8 ~ g4 r4
+    f4 f4 r2
+    g4 g4 r2
+
+    r4 g4 r4 g4
+    r4 g4 r4 g4
+    f4 f4 r4 r8 a8
+    a4 h4 h4 r4
+
+    r2 es2
+    c4 r4 r4 c4
+    r4 c4 r4 c4
+    r4 h4 r4 r8 g8
+
+    g8 g8 g8 g8 g8 g8 g8 g8
+    f8 f8 ~ f8 g8 ~ g8 f8 r4
+    r1
+    r2 g4 fis4
+    
+    \bar "||"
+    
+    % Refrain 2
+    
+    fis8 g8 ~ g8 g8 d'4 d8 d8
+    des4 des8 des8 des4 r4
+    c8 c8 c4 c8 c8 c8 c8
+    c4 h8 h8 ~ h8 g8 g4
+    
+    g8 g8 ~ g8 g8 d'4 d4
+    des4 h8 des8 ~ des4 r4
+    c8 c8 c4 c4 c4
+    c4 h4 h8 g8 a4
+    
+    a8 h8 ~ h4 r4 d4
+    r4 des4 r4 des4
+    r4 c4 r4 c4
+    r4 h4 r8 h8 a4
+
+    a8 h8 ~ h4 r4 d4
+    r4 des4 r4 des4
+    c8 c8 c4 c4 c4
+    c4 h4 h4 r4
 }
 
 baritonZweiText = \lyricmode {
   
   % Intro
   
-  doo doo
-  doo doo
-  doo doo
-  doo doo
+  dumm dumm
+  dumm dumm
+  dumm dumm
+  dumm dumm
   
   % Srophe 1
   
-  doo doo
-  doo doo
-  doo doo
-  doo doo
+  dumm dumm
+  dumm dumm
+  dumm dumm
+  dumm dumm
 
-  doo doo
-  doo doo
-  doo doo
-  doo doo
+  dumm dumm
+  dumm dumm
+  dumm dumm
+  dumm dumm
   
-  doo doo
-  doo doo
-  doo doo
-  doo doo
+  dumm dumm
+  dumm dumm
+  dumm dumm
+  dumm dumm
   
-  doo doo
-  doo doo
-  doo doo
-  doo doo
+  dumm dumm
+  dumm dumm
+  dumm dumm
+  dumm dumm
   
   ooo -- o ha
   ha ha
@@ -107,7 +169,7 @@ baritonZweiText = \lyricmode {
   in der Ba -- de -- wan -- ne
   mit. Jetzt ist
   
-  % Refrain
+  % Refrain 1
   
   Som -- mer, e -- gal ob man
   schwitzt o -- der friert
@@ -129,4 +191,58 @@ baritonZweiText = \lyricmode {
   Som -- mer ist, wenn man
   trotz -- dem lacht.
 
+  % Srophe 2
+  
+  dumm dumm
+  dumm dumm
+  dumm dumm
+  dumm dumm
+
+  dumm dumm
+  dumm dumm
+  dumm dumm
+  dumm dumm
+  
+  Manch -- mal wenn ich das
+  Wet -- ter seh'
+  dumm dumm
+  dumm dumm
+  
+  ha ha
+  ha ha
+  dumm dumm Was
+  bringt das schon.
+  
+  ooo --
+  o ha
+  ha ha
+  ha Ich
+  
+  mach' mir lie -- ber mei -- ne eig' -- ne
+  Wet -- ter -- la -- ge
+  % pause
+  Jetzt ist
+   
+  % Refrain 2
+  
+  Som -- mer, e -- gal ob man
+  schwitzt o -- der friert
+  Som -- mer ist, was in dei -- nem
+  Kopf pas -- siert. Es ist
+  
+  Som -- mer, ich hab' das
+  klar ge -- macht.
+  Som -- mer ist, wenn man
+  trotz -- dem lacht. Es ist
+  
+  Som -- mer ha
+  ha ha
+  ha ha
+  ha Es ist
+  
+  Som -- mer ha
+  ha ha
+  Som -- mer ist, wenn man
+  trotz -- dem lacht.
+  
 }

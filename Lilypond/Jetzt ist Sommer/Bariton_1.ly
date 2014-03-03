@@ -47,31 +47,90 @@ baritonEins = \relative c' {
 
     \bar "||"
     
-    % Refrain
+    % Refrain 1
     
-    a8 h8 ~ h8 h8 h4 a8 g8
+    a8 h8 ~ h8 e,8 h'4 a8 g8
     a4 a8 g8 a4 r4
     a8 g8 a4 a8 g8 a8 h8
     a4 g8 g8 ~ g8 g8 a4
     
-    a8 h8 ~ h8 h8 h4 a4
+    a8 h8 ~ h8 e,8 h'4 a4
     a4 g8 a8 ~ a4 r4
-    a8 g8 a4 a4 h4
+    a8 g8 a4 a4 b4
     a4 g4 g8 h8 a4
     
-    a8 h8 ~ h8 h8 h4 a8 g8
+    a8 h8 ~ h8 e,8 h'4 a8 g8
+    a4 a8 g8 a4 r4
+    a8 g8 a4 a8 g8 a8 h8
+    a4 g8 g8 ~ g8 h8 a4
+    
+    a8 h8 ~ h8 e,8 h'4 a4
+    a4 g8 a8 ~ a4 r4
+    a8 g8 a4 a4 b4
+    a4 g4 g4 r4
+
+    % Strophe 2
+
+    d'4 h4 h8 a8 a8 a8
+    a4 g8 h8 ~ h4 a8 a8
+    a4 f4 r8 f8 f8 f8
+    f4 g8 g8 ~ g4 d'8 d8
+
+    d4 h8 h8 ~ h4 a4
+    a4 g8 h8 ~ h4 a8 a8 
+    a8 f8 f8 f8 f8 f8 f8 f8
+    f4 g8 g8 ~ g4 r4
+
+    d'4 h4 h8 h8 a4
+    a8 g8 ~ g8 h8 ~ h8 a8 a8 a8 
+    a4 f8 f8 f4 f8 f8
+    f8 g8 ~ g8 g8 ~ g4 d'8 d8
+
+    d4 h8 h8 ~ h8 h8 a8 a8
+    a8 g8 ~ g8 h8 ~ h4 r8 a8
+    a8 f8 ~ f8 f8 ~ f4 r8 f8
+    f4 g4 g4 r4
+
+    b8 b8 b8 b8 b4 b4
+    a4 a8 a8 ~ a4 r4
+    g8 g8 g8 g8 g8 g8 g8 a8
+    h4 g4 g4 r8 g8
+
+    b8 b8 b8 b8 b8 b8 b8 b8
+    a8 a8 ~ a8 b8 ~ b8 a8 r8 a8
+    g8 g8 g8 g8 g4 a4
+    h4 a4 h4 a4
+
+    \bar "||"
+    
+    % Refrain 2
+    
+    a8 h8 ~ h8 e,8 h'4 a8 g8
     a4 a8 g8 a4 r4
     a8 g8 a4 a8 g8 a8 h8
     a4 g8 g8 ~ g8 g8 a4
     
-    a8 h8 ~ h8 h8 h4 a4
+    a8 h8 ~ h8 e,8 h'4 a4
     a4 g8 a8 ~ a4 r4
-    a8 g8 a4 a4 h4
-    a4 g4 g4 r4
+    a8 g8 a4 a4 b4
+    a4 g4 g8 g8 a4
+    
+    a8 h8 ~ h8 e,8 h'4 a8 g8
+    a4 a8 g8 a4 r4
+    a8 g8 a4 a8 g8 a8 h8
+    a4 g8 g8 ~ g8 h8 a4
+    
+    a8 h8 ~ h8 e,8 h'4 a4
+    a4 g8 a8 ~ a4 r4
+    b8 b8 b4 b4 b4
+    b4 g4 g4 r4
 
 }
 
 baritonEinsText = \lyricmode {
+  
+  % Strophe 1
+  
   Sonn' bril -- le auf und ab
   ins Ca -- fé, wo ich die
   schö -- nen Frau -- en auf der 
@@ -84,8 +143,8 @@ baritonEinsText = \lyricmode {
   
   Sonn' -- milch drauf und ab zur
   Lie -- ge -- wie -- se, wo ich für
-  mich und Li -- sa ei -- ne
-  Lie -- ge mie -- te. Wir
+  mich und Li --  sa ei -- ne
+  Lie -- ge lea -- se. Wir
   
   las -- sen uns geh'n und wir
   las -- sen uns bra -- ten
@@ -102,7 +161,61 @@ baritonEinsText = \lyricmode {
   sin -- gen in der Ba -- de -- wan -- ne
   mit. Jetzt ist
   
-  % Refrain
+  % Refrain 1
+  
+  Som -- mer, e -- gal ob man
+  schwitzt o -- der friert
+  Som -- mer ist, was in dei -- nem
+  Kopf pas -- siert. Es ist
+  
+  Som -- mer, ich hab' das
+  klar ge -- macht.
+  Som -- mer ist, wenn man
+  trotz -- dem lacht. Es ist
+  
+  Som -- mer, e -- gal ob man
+  schwitzt o -- der friert
+  Som -- mer ist, was in dei -- nem
+  Kopf pas -- siert. Es ist
+  
+  Som -- mer, ich hab' das
+  klar ge -- macht.
+  Som -- mer ist, wenn man
+  trotz -- dem lacht.
+  
+  % Strophe 2
+  
+  Sonn' -- dach auf und ab ins
+  Ca -- bri -- o, doch ich
+  hab' keins, das ist in
+  Ord -- nung so. Weil der
+  
+  Spaß da -- ran dir
+  schnell ver -- geht, wenn's den
+  gan -- zen Som -- mer nur in der Ga --
+  ra -- ge steht.
+  
+  Manch -- mal wenn ich das
+  Wet -- ter seh', krieg ich Ge --
+  walt -- phan -- ta -- sien. Und die
+  Wet -- ter -- fee wär' das
+  
+  er -- ste Op -- fer mei -- ner
+  Ag -- gres -- sion', ob --
+  wohl ich weiß: Was
+  bringt das schon.
+  
+  Wenn man sie beim Wort nimmt
+  und sie zwingt,
+  dass sie in Bi -- ki -- ni in die
+  Nord -- see springt. Ich
+  
+  mach' mir lie -- ber mei -- ne eig' -- ne
+  Wet -- ter -- la -- ge, wenn
+  ich mir im -- mer wie -- der
+  sa -- ge: Jetzt ist
+  
+  % Refrain 2
   
   Som -- mer, e -- gal ob man
   schwitzt o -- der friert
