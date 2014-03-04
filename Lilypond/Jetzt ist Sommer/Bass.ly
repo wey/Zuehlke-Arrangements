@@ -127,6 +127,28 @@ bass = \relative c {
     d4 d4 b4 b4
     g4 g4 r2
     
+    % Bridge
+    
+    g4 g4 r2
+    g4 g4 r2
+    f4 f4 r2
+    g4 g4 r2
+
+    g4 g4 r2
+    g4 g4 r2
+    f4 f4 r2
+    c'4 c4 r2
+    
+    %es,4 es4 r2
+    %f4 f4 r2
+    %c'4 c4 r2
+    %g4 g4 r2
+    
+    %es4 es4 r2
+    %f4 f4 r2
+    %r1
+    %r1
+    
 }
 
 bassText = \lyricmode {

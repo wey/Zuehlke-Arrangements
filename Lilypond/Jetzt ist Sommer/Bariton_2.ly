@@ -126,6 +126,20 @@ baritonZwei = \relative c' {
     r4 des4 r4 des4
     c8 c8 c4 c4 c4
     c4 h4 h4 r4
+    
+    \bar "||"
+    
+    % Bridge
+    
+    r1
+    r1
+    r1
+    r2 r4 d8 d8
+    
+    d8 d8 b8 b8 b8 b8 b8 a8
+    b4 b4 b4 d8 d8 
+    d8 d8 b8 b8 b8 b8 b8 a8
+    b4 b4 b4 r4
 }
 
 baritonZweiText = \lyricmode {
@@ -244,5 +258,14 @@ baritonZweiText = \lyricmode {
   ha ha
   Som -- mer ist, wenn man
   trotz -- dem lacht.
+  
+  % Bridge
+  
+  Ich bin
+  
+  sa -- uer wenn ein an -- d'rer mei -- ne
+  Traum -- frau kriegt und am
+  Pool mit die -- ser Frau auf mei -- nem
+  Hand -- tuch liegt.
   
 }

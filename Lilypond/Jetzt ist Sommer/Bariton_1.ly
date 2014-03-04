@@ -123,8 +123,24 @@ baritonEins = \relative c' {
     a8 h8 ~ h8 e,8 h'4 a4
     a4 g8 a8 ~ a4 r4
     b8 b8 b4 b4 b4
-    b4 g4 g4 r4
+    b4 g4 g4 b8 b8
 
+    \bar "||"
+    
+    % Bridge
+    
+    b8 b8 g8 g8 g8 g8 g8 f8
+    g8 g8 ~ g8 g8 ~ g4 b8 b8
+    b8 b8 g8 g8 g8 g8 g8 f8
+    g8 g8 ~ g8 g8 ~ g4 b8 b8
+    
+    b8 b8 g8 g8 g8 g8 g8 f8
+    g4 g4 g4 b8 b8
+    b8 b8 g8 g8 g8 g8 g8 f8
+    g4 g4 g4 r4
+    
+    
+    
 }
 
 baritonEinsText = \lyricmode {
@@ -235,6 +251,20 @@ baritonEinsText = \lyricmode {
   Som -- mer, ich hab' das
   klar ge -- macht.
   Som -- mer ist, wenn man
-  trotz -- dem lacht.
+  trotz -- dem lacht. Ich bin 
+  
+  % Bridge
+  
+  sau -- er, wenn mir ir -- gend -- wer mein
+  Fahr -- rad klaut, ich bin
+  sau -- er wenn mir ei -- ner auf die
+  Fres -- se haut, ich bin
+  
+  sa -- uer wenn ein an -- d'rer mei -- ne
+  Traum -- frau kriegt und am
+  Pool mit die -- ser Frau auf mei -- nem
+  Hand -- tuch liegt.
+  
+  
 }
 

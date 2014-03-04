@@ -134,6 +134,20 @@ tenor = \relative c' {
     d4 d4 d4 r4
     
     \bar "||"
+    
+    % Bridge
+    
+    \xNotesOn
+    r1
+    r4 g,4 r4 g4 % Todo: gehaucht
+    r1
+    r4 g4 r4 g4 % Todo: gehaucht
+    
+    r1
+    r4 g4 r4 g4 % Todo: gehaucht
+    \xNotesOff
+    f'8 f8 d8 d8 d8 d8 d8 d8
+    c4 c4 c4 r4
 }
 
 tenorText = \lyricmode {
@@ -218,6 +232,14 @@ tenorText = \lyricmode {
   ha ha
   Som -- mer ist, wenn man
   trotz -- dem lacht.
+  
+  % Bridge
+  
+  ha ha
+  ha ha
+  ha ha
+  Pool mit die -- ser Frau auf mei -- nem
+  Hand -- tuch liegt.
   
 }
 

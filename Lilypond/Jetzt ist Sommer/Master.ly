@@ -266,7 +266,7 @@ akkolade = \new ChoirStaff <<
     \baritonZweiSystemText
     
     \bassSystem
-    \bassSystemText
+    
 
 >>
 % showLastLength = R2.*100
