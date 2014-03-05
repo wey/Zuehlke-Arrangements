@@ -139,15 +139,52 @@ tenor = \relative c' {
     
     \xNotesOn
     r1
-    r4 g,4 r4 g4 % Todo: gehaucht
+    r4 g,4 r4 g4
     r1
-    r4 g4 r4 g4 % Todo: gehaucht
+    r4 g4 r4 g4
     
     r1
-    r4 g4 r4 g4 % Todo: gehaucht
+    r4 g4 r4 g4
     \xNotesOff
     f'8 f8 d8 d8 d8 d8 d8 d8
     c4 c4 c4 r4
+    
+    r2 g'2
+    f4 r4 r4 f4
+    r4 e4 r4 e4
+    r4 d4 r4 d4
+
+    r2 g2
+    f4 r4 r4 f8 f8
+    e8 e8 e8 e8 ~ e8 e8 e8 e8
+    fis4 r4 e4 d4
+    
+    \bar "||"
+    
+    % Refrain 3
+    
+    d8 e8 ~ e8 e8 e4 e8 e8
+    e4 e8 e8 e4 r4
+    d8 d8 d4 d8 d8 d8 d8
+    d4 d8 d8 ~ d8 d8 d4
+    
+    d8 e8 ~ e4 e4 e4
+    e8 e8 ~ e8 e8 ~ e4 r8 d8
+    d8 d8 d4 d8 d8 d4
+    d4 d8 d8 ~ d8 d8 e4
+    
+    g4 e4 b'4 a4
+    g4. e8 ~ e4 e4 
+    r4 d4 r4 d4
+    r8 d8 e4 g4 e4
+
+    g4 e4 b'4 a4
+    g4. e8 ~ e4 r4
+    d8 d8 d4 d4 d4
+    d4 d4 d4 r4
+    
+    \bar "||"
+
 }
 
 tenorText = \lyricmode {
@@ -240,6 +277,39 @@ tenorText = \lyricmode {
   ha ha
   Pool mit die -- ser Frau auf mei -- nem
   Hand -- tuch liegt.
+  
+  ooo --
+  o ha
+  ha ha
+  ha ha
+  
+  ooo --
+  o und die
+  Son -- ne geht auf in mei -- nem
+  Kopf. Jetzt ist
+  
+  % Refrain 3
+  
+  Som -- mer, e -- gal ob man
+  schwitzt o -- der friert
+  Som -- mer ist, was in dei -- nem
+  Kopf pas -- siert. Es ist
+  
+  Som -- mer, ab ins
+  Gum -- mi -- boot. Der
+  Win -- ter hat ab so -- fort
+  Haus -- ver -- bot. Ba dab
+  
+  dab dab daa dab
+  daa dab ha
+  ha ha
+  Ba dab dab dab
+  
+  dab dab daa dab
+  daa dab
+  Som -- mer ist, wenn man
+  trotz -- dem lacht.
+  
   
 }
 

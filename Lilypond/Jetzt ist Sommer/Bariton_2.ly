@@ -140,6 +140,40 @@ baritonZwei = \relative c' {
     b4 b4 b4 d8 d8 
     d8 d8 b8 b8 b8 b8 b8 a8
     b4 b4 b4 r4
+    
+    r2 es2
+    c4 r4 r4 c4
+    r4 c4 r4 c4
+    r4 h4 r4 h4
+    
+    r2 es2
+    c4 r4 r4 c8 c8
+    c8 c8 c8 c8 ~ c8 c8 c8 c8
+    d4 r4 g,4 f4
+    
+    % Refrain 3
+    
+    fis8 g8 ~ g8 g8 d'4 d8 d8
+    des4 des8 des8 des4 r4
+    c8 c8 c4 c8 c8 c8 c8
+    c4 h8 h8 ~ h8 g8 g4
+    
+    g8 g8 ~ g4 d'4 d4
+    des8 h8 ~ h8 des8 ~ des4 r8 des8
+    c8 c8 c4 c8 c8 c4
+    c4 h8 h8 ~ h8 g8 a4
+    
+    a8 h8 ~ h4 r4 d4
+    r4 des4 r4 des4
+    r4 c4 r4 c4
+    r4 h4 r8 h8 a4
+
+    a8 h8 ~ h4 r4 d4
+    r4 des4 r4 des4
+    c8 c8 c4 c4 d4
+    c4 h4 h4 r4
+    
+    \bar "||"
 }
 
 baritonZweiText = \lyricmode {
@@ -257,15 +291,26 @@ baritonZweiText = \lyricmode {
   Som -- mer ha
   ha ha
   Som -- mer ist, wenn man
-  trotz -- dem lacht.
+  trotz -- dem lacht. Ich bin
   
   % Bridge
-  
-  Ich bin
-  
+    
   sa -- uer wenn ein an -- d'rer mei -- ne
   Traum -- frau kriegt und am
   Pool mit die -- ser Frau auf mei -- nem
   Hand -- tuch liegt.
+  
+  ooo --
+  o ha
+  ha ha
+  ha ha
+  
+  ooo --
+  o und die
+  Son -- ne geht auf in mei -- nem
+  Kopf Jetzt ist
+  
+  % Refrain 3
+  
   
 }

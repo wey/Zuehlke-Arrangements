@@ -137,10 +137,41 @@ baritonEins = \relative c' {
     b8 b8 g8 g8 g8 g8 g8 f8
     g4 g4 g4 b8 b8
     b8 b8 g8 g8 g8 g8 g8 f8
-    g4 g4 g4 r4
+    g4 g4 g4 r8 es8
     
+    b'4 b8 b8 b8 b8 b8 b8
+    a8 a8 ~ a8 a8 ~ a4 r8 a8
+    g8 g8 g8 g8 g8 g8 g8 a8
+    h8 g8 ~ g8 g8 ~ g4 r8 es8
+
+    b'4 b8 b8 b8 b8 b8 b8
+    a8 a8 ~ a8 a8 r4 a8 a8
+    g8 g8 g8 g8 ~ g8 g8 g8 g8
+    a4 r4 h4 a4
+
+    \bar "||"
     
+    a8 h8 ~ h8 e,8 h'4 a8 g8
+    a4 a8 g8 a4 r4
+    a8 g8 a4 a8 g8 a8 h8
+    a4 g8 g8 ~ g8 g8 a4
     
+    a8 h8 ~ h4 h4 a4
+    a8 g8 ~ g8 a8 ~ a4 r8 g8
+    a8 g8 a4 a8 g8 a4
+    a4 g8 g8 ~ g8 g8 a4
+    
+    a8 h8 ~ h8 e,8 h'4 a8 g8
+    a4 a8 g8 a4 r4
+    a8 g8 a4 a8 g8 a8 h8
+    a4 g8 g8 ~ g8 h8 a4
+    
+    a8 h8 ~ h8 e,8 h'4 a4
+    a4 g8 a8 ~ a4 r4
+    a8 g8 a4 a4 b4
+    a4 g4 g4 r4
+
+    \bar "||"
 }
 
 baritonEinsText = \lyricmode {
@@ -263,8 +294,39 @@ baritonEinsText = \lyricmode {
   sa -- uer wenn ein an -- d'rer mei -- ne
   Traum -- frau kriegt und am
   Pool mit die -- ser Frau auf mei -- nem
-  Hand -- tuch liegt.
+  Hand -- tuch liegt. Doch
   
+  sonst nehm' ich al -- les ziem -- lich
+  loc -- ker hin, weil
+  ich men -- tal ein ab -- so -- lu -- ter
+  Zoc -- ker bin. Ich
   
+  drück' ein -- fach auf den klei -- nen
+  grü -- nen Knopf und die
+  Son -- ne geht an in mei -- nem
+  Kopf. Jetzt ist
+  
+  % Refrain 3
+  
+  Som -- mer, e -- gal ob man
+  schwitzt o -- der friert
+  Som -- mer ist, was in dei -- nem
+  Kopf pas -- siert. Es ist
+  
+  Som -- mer, ab ins
+  Gum -- mi -- boot. Der
+  Win -- ter hat ab so -- fort
+  Haus -- ver -- bot. Es ist
+  
+  Som -- mer, e -- gal ob man
+  schwitzt o -- der friert
+  Som -- mer ist, was in dei -- nem
+  Kopf pas -- siert. Es ist
+  
+  Som -- mer, ich hab' das
+  klar ge -- macht.
+  Som -- mer ist, wenn man
+  trotz -- dem lacht.
+
 }
 

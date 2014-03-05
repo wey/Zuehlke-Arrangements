@@ -139,16 +139,43 @@ bass = \relative c {
     f4 f4 r2
     c'4 c4 r2
     
-    %es,4 es4 r2
-    %f4 f4 r2
-    %c'4 c4 r2
-    %g4 g4 r2
+    es,4 es4 r2
+    f4 f4 r2
+    c'4 c4 r2
+    g4 g4 r2
     
-    %es4 es4 r2
-    %f4 f4 r2
-    %r1
-    %r1
+    es4 es4 r2
+    f4 f4 r2
+    r1
+    r1
+
     
+    \bar "||"
+    
+    % Refrain 1
+
+    e4 e4 g4 g4
+    a4 a4 r2
+    d4 d4 a4 a4
+    g4 g4 r2
+    
+    e4 e4 g4 g4
+    a4 a4 r2
+    d4 d4 a4 a4
+    g4 g4 g4 fis4
+    
+    e4 e4 g4 g4
+    a4 a4 r2
+    d4 d4 a4 a4
+    g4 g4 r2
+    
+    e4 e4 g4 g4
+    a4 a4 r2
+    d4 d4 a4 a4
+    g4 g4 g4 r4
+    
+    \bar "||"
+
 }
 
 bassText = \lyricmode {
